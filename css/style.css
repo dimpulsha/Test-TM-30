@@ -62,9 +62,9 @@
   --user-button-fill: #3D546F;
   --social-fill: #212A3A;
   --service-link-shadow: #405069;
-  --user-button-click: #C5C5C5;
-  --pagination-hover: #C5C5C5;
-  --sort-arrow: #C5C5C5;
+  --user-button-click:  var(--grey-light);
+  --pagination-hover:  var(--grey-light);
+  --sort-arrow:  var(--grey-light);
   --logo-shadow: rgba(0, 0, 0, 0.24);
   --main-shadow: rgba(0, 0, 0, 0.15);
   --sort-basic-text: rgba(0, 0, 0, 0.3);
@@ -96,6 +96,10 @@
   --green-hover: #5FBB2D;
   --green-active: #518534;
   --green-button-border: #367315;
+  /* серые цвета */
+  --grey-dark: #A9A9A9;
+  --grey-basis: #B5B5B5;
+  --grey-light:#C5C5C5;
   /* текст - разное */
   --old-price-txt: #A9A9A9;
   --footer-yellow-link: #FFD180;
@@ -109,8 +113,8 @@
   --middle-grey:#B5B5B5;
   --check-disabled: var(--middle-grey);
   --check-hover: var(--middle-grey);
-  --check-nocheck: #C5C5C5;
-  --popup-button-border: #C5C5C5;
+  --check-nocheck:  var(--grey-light);
+  --popup-button-border: var(--grey-light);
   --button-focus-outline: #ABABAB;
 }
 
