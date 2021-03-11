@@ -106,8 +106,9 @@
   --scale-empty-range: #D7DCDE;
   --toggle-center: #ABABAB;
   --toggle-shadow: rgba( 171, 171, 171, 0.3);
-  --check-disabled: #B5B5B5;
-  --check-hover: #B5B5B5;
+  --middle-grey:#B5B5B5;
+  --check-disabled: var(--middle-grey);
+  --check-hover: var(--middle-grey);
   --check-nocheck: #C5C5C5;
   --popup-button-border: #C5C5C5;
   --button-focus-outline: #ABABAB;
